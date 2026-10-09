@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+
+# Sensitive biometric data
+captures/
+recordings/
+datasets/
+biometric_data/
+enrollment_data/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Local databases and logs
+pgdata/
+postgres-data/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+*.log
+logs/
+
+# Editors and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
